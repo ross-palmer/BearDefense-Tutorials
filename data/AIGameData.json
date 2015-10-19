@@ -1,0 +1,161 @@
+{
+    "ai_game_data": 
+    {         
+        "level1" : 
+        {            
+            "ai": 
+            {
+                "ai_paths" :  3,
+                "little_bear_walking_file" : ".\\assets\\graphics\\LittleBearWalking.png", 
+                "little_bear_waving_file" : ".\\assets\\graphics\\LittleBearWaving.png", 
+                "max_num_little_bears" :  24,
+                "little_bears_path1" :  8,
+                "little_bears_path2" :  8,
+                "little_bears_path3" :  8,
+                "little_bear_damage" :  1,
+                "little_bear_spawn_interval" :  1300,
+                "little_bear_scale" :  0.3,
+                "little_bear_velocity" :  0.1,               
+                "little_bear_start_position_path1" : 
+                {
+                    "x": 13,
+                    "y": 1
+                },                
+                "little_bear_start_position_path2" : 
+                {
+                    "x": 35,
+                    "y": 900
+                },
+                "little_bear_start_position_path3" : 
+                {
+                    "x": 1350,
+                    "y": 1
+                },
+                "little_bear_walking_spritesheet" : 
+                {
+                    "rows": 9,
+                    "columns": 4,
+                    "width": 232,
+                    "height": 282  
+                },
+                 "little_bear_waving_spritesheet" : 
+                {
+                    "rows": 5,
+                    "columns": 5,
+                    "width": 272,
+                    "height": 289  
+                },
+                "little_bear_waypoints_1" : [                                                    
+                 {
+                    "x": 255,
+                    "y": 80  
+                 },
+                 {
+                    "x": 454,
+                    "y": 187  
+                 },
+                 {
+                    "x": 633,
+                    "y": 331  
+                 },
+                 {
+                    "x": 778,
+                    "y": 481  
+                 },
+                 {
+                    "x": 805,
+                    "y": 631  
+                 },
+                 {
+                    "x": 940,
+                    "y": 790  
+                 },
+                 {
+                    "x": 1145,
+                    "y": 730  
+                 },
+                 {
+                    "x": 1253,
+                    "y": 615 
+                 }
+                ],
+                "little_bear_waypoints_2" : [             
+                 {
+                    "x": 25,
+                    "y": 776  
+                 },
+                 {
+                    "x": 35,
+                    "y": 615  
+                 },
+                 {
+                    "x": 284,
+                    "y": 480  
+                 },
+                 {
+                    "x": 469,
+                    "y": 560  
+                 },             
+                 {
+                    "x": 762,
+                    "y": 660  
+                 },
+                 {
+                    "x": 894,
+                    "y": 798  
+                 },
+                 {
+                    "x": 1150,
+                    "y": 740  
+                 },
+                 {
+                    "x": 1253,
+                    "y": 615
+                 }
+                ],
+                "little_bear_waypoints_3" : [             
+                 {
+                    "x": 1340,
+                    "y": 50  
+                 },
+                 {
+                    "x": 1290,
+                    "y": 100  
+                 },
+                 {
+                    "x": 1238,
+                    "y": 161  
+                 },
+                 {
+                    "x": 1181,
+                    "y": 246  
+                 },             
+                 {
+                    "x": 1144,
+                    "y": 330 
+                 },
+                 {
+                    "x": 1120,
+                    "y": 422  
+                 },
+                 {
+                    "x": 1172,
+                    "y": 500  
+                 },
+                 {
+                    "x": 1253,
+                    "y": 615
+                 }
+                ],
+                "bees_swarming_file" :  ".\\assets\\graphics\\BeesSwarming.png",
+                "bees_swarming_spritesheet" : 
+                {
+                    "rows": 5,
+                    "width": 184,
+                    "height": 64,
+                    "on_screen_time" : 700  
+                }  
+            }     
+        }
+    } 
+}

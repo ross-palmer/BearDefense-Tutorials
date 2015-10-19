@@ -1,0 +1,131 @@
+{
+    "general_game_data": {
+        "global_settings" : {           
+            "font_file" :  ".\\assets\\fonts\\skatergirlsrock.ttf", 
+            "place_towers_text" :  "Place towers, then hit Go! ",
+            "place_towers_text_size" :  50,
+            "place_towers_text_x" :  400,
+            "place_towers_text_y" :  200,
+            "game_lose_text" :  "The bears got all the honey! Click to retry...",
+            "particles_texture_file" : ".\\assets\\graphics\\SmokeTexture.png",
+
+            "go_button_file" :  ".\\assets\\graphics\\GoButton.png",
+            "go_button_width" :  128,
+            "go_button_height" :  102,
+            "go_button_position" : 
+             {
+                "x" :  1300,
+                "y" :  780
+             },
+            "tower_points_file" :  ".\\assets\\graphics\\TowerPointsBackground.png",
+            "tower_points" :  2,            
+            "honey_level" :  20,
+            "honey_hive_file" :  ".\\assets\\graphics\\HoneyHiveStrip.png",
+            "honey_hive_width" :  144,
+            "honey_hive_rows" :  3,
+            "honey_hive_cols" :  7,
+            "honey_hive_frames" :  21,
+            "honey_hive_position" : { "x" :  1253, "y" : 563 },           
+            "tower" : 
+            {
+                "tower_base_file" : ".\\assets\\graphics\\TowerBase.png",      
+                "tower_width" :  62,
+                "tower_height" : 53,
+                "tower_file": ".\\assets\\graphics\\Tower.png",
+                "max_num_towers":  9,
+                "firing_delay" :  800,
+                "tower_rotation_speed" :  3,
+                "tower_rotation_origin" :  
+                {
+                    "x" :  31,
+                    "y" :  55
+                }
+            },
+            "sfx": 
+            {
+                "mouse_over_tower_base": ".\\assets\\sound\\MouseOverTowerBase.wav",
+                "tower_placed" :  ".\\assets\\sound\\TowerPlaced.wav",
+                "tower_firing" :  ".\\assets\\sound\\TowerFiring.wav",
+                "bumble_bees" :  ".\\assets\\sound\\BumbleBees.wav"
+            },
+            "projectile" : 
+            {
+                "projectile_file" : ".\\assets\\graphics\\Hive.png",               
+                "projectile_centre" :  
+                {
+                    "x" :  6,
+                    "y" :  9
+                },
+                "max_num_projectiles" :  20,
+                "time_to_live" :  2000,
+                "velocity" :  1
+            }                            
+        },
+        "menu_background_file" : ".\\assets\\graphics\\MenuBackground.png",         
+        "menu_items" : {
+            "play" :
+            {
+                   "size": 40, 
+                   "text":  "Play",
+                   "x" : 700,
+                   "y" : 300
+            },    
+            "exit" :
+            {
+                   "size": 40, 
+                   "text":  "Exit",
+                   "x" : 700,
+                   "y" : 400
+            },   
+            "continue" :
+            {
+                   "size": 40, 
+                   "text":  "Continue",
+                   "x" : 700,
+                   "y" : 300
+            }   
+        }, 
+        "level1" : {
+            "level1_background_file" : ".\\assets\\graphics\\Level1Background.png",
+            
+            "tower_bases": [
+             {
+                "x": 800,
+                "y": 845
+             },
+             {
+                "x": 735,
+                "y": 790  
+             },
+             {
+                "x": 678,
+                "y": 552
+             },
+             {
+                "x": 597,
+                "y": 493
+             },
+             {
+                "x": 525,
+                "y": 440
+             },
+             {
+                "x": 757,
+                "y": 379
+             },
+             {
+                "x": 852,
+                "y": 338
+             },
+             {
+                "x": 1060,
+                "y": 278
+             },
+             {
+                "x": 1203,
+                "y": 423
+             }
+            ]           
+        }
+    } 
+}
